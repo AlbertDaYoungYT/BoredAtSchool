@@ -19,6 +19,9 @@ public class BoredAtSchool implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		LOGGER.info("Hello Fabric world!");
+		AllEnchants.registerModEnchantments();
+		AllEffects.registerModEffects();
+
+		LOGGER.info(MOD_ID + " initialized");
 	}
 }
