@@ -20,5 +20,6 @@ public class ModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(AllItems.KSI_THICK_OF_IT_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(AllItems.KSI_THICK_OF_IT_FULL_MUSIC_DISC, Models.GENERATED);
     }
 }

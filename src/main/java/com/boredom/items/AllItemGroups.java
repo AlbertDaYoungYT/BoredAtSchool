@@ -17,6 +17,7 @@ public class AllItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.boredatschool"))
                     .icon(() -> new ItemStack(AllItems.KSI_THICK_OF_IT_MUSIC_DISC)).entries((displayContext, entries) -> {
                         entries.add(AllItems.KSI_THICK_OF_IT_MUSIC_DISC);
+                        entries.add(AllItems.KSI_THICK_OF_IT_FULL_MUSIC_DISC);
                     }).build());
     
     public static void registerItemGroups() {

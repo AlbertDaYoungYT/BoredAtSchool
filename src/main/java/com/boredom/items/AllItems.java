@@ -12,6 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class AllItems {
     public static final Item KSI_THICK_OF_IT_MUSIC_DISC = registerItem("ksi_thick_of_it_music_disc", new MusicDiscItem(7, AllSounds.KSI_THICK_OF_IT, new FabricItemSettings().maxCount(1), 39));
+    public static final Item KSI_THICK_OF_IT_FULL_MUSIC_DISC = registerItem("ksi_thick_of_it_full_music_disc", new MusicDiscItem(15, AllSounds.KSI_THICK_OF_IT_FULL, new FabricItemSettings().maxCount(1), 160));
 
 
     private static Item registerItem(String name, Item item) {

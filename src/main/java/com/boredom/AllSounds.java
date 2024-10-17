@@ -7,6 +7,7 @@ import net.minecraft.util.Identifier;
 
 public class AllSounds {
     public static final SoundEvent KSI_THICK_OF_IT = registerSoundEvent("ksi_thick_of_it");
+    public static final SoundEvent KSI_THICK_OF_IT_FULL = registerSoundEvent("ksi_thick_of_it_full");
 
     private static SoundEvent registerSoundEvent(String name) {
         Identifier id = new Identifier(BoredAtSchool.MOD_ID, name);

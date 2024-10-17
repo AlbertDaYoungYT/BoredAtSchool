@@ -6,5 +6,13 @@
                 "stream": true
             }
         ]
+    },
+    "ksi_thick_of_it_full": {
+        "sounds": [
+            {
+                "name": "boredatschool:ksi_thick_of_it_full",
+                "stream": true
+            }
+        ]
     }
 }

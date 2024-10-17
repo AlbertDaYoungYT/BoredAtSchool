@@ -16,7 +16,8 @@ public class ItemTagProvider extends FabricTagProvider.ItemTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         getOrCreateTagBuilder(ItemTags.MUSIC_DISCS)
-                .add(AllItems.KSI_THICK_OF_IT_MUSIC_DISC);
+                .add(AllItems.KSI_THICK_OF_IT_MUSIC_DISC)
+                .add(AllItems.KSI_THICK_OF_IT_FULL_MUSIC_DISC);
 
         getOrCreateTagBuilder(ItemTags.CREEPER_DROP_MUSIC_DISCS)
                 .add(AllItems.KSI_THICK_OF_IT_MUSIC_DISC);
