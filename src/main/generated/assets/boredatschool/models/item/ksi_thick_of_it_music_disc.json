@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "boredatschool:item/ksi_thick_of_it_music_disc"
+  }
+}

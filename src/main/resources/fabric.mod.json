@@ -20,6 +20,9 @@
 		],
 		"client": [
 			"com.boredom.BoredAtSchoolClient"
+		],
+		"fabric-datagen": [
+			"com.boredom.BoredAtSchoolDataGenerator"
 		]
 	},
 	"mixins": [

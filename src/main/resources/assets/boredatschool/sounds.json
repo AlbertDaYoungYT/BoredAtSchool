@@ -1,0 +1,10 @@
+{
+    "ksi_thick_of_it": {
+        "sounds": [
+            {
+                "name": "boredatschool:ksi_thick_of_it",
+                "stream": true
+            }
+        ]
+    }
+}
